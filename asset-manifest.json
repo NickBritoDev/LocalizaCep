@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/LocalizaCep/static/css/main.4d59b462.css",
+    "main.js": "/LocalizaCep/static/js/main.711b7f64.js",
+    "index.html": "/LocalizaCep/index.html",
+    "main.4d59b462.css.map": "/LocalizaCep/static/css/main.4d59b462.css.map",
+    "main.711b7f64.js.map": "/LocalizaCep/static/js/main.711b7f64.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4d59b462.css",
+    "static/js/main.711b7f64.js"
+  ]
+}
