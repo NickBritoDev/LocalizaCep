@@ -1,0 +1,104 @@
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title{
+    font-size: 55px;
+    margin: 0 auto 40px auto;
+    background: none;
+}
+
+.containerInput{
+    background: rgba(0, 0, 0, 0.877);
+    padding: 15px;
+    display: flex;
+    margin: 0 auto 40px auto;
+    box-shadow: 3px 3px 8px rgba(5, 5, 5, 0.87);
+    border-radius: 10px;
+}
+
+.containerInput input{
+    background:none;
+    border: none;
+    color: aliceblue;
+    outline: none;
+    margin-right: 10px;
+}
+
+.containerInput input::placeholder{
+    color: gainsboro;
+    font-family: 'Roboto', sans-serif;
+}
+.containerInput button{
+    background:none;
+    border: none;
+    color: aliceblue;
+    outline: none;
+}
+
+/*MAIN (RETURN FOR SEARCH)*/
+.main{
+    display:flex;
+    flex-direction: column;
+    background: rgba(5, 5, 5, 0.87);
+    color: gainsboro;
+    padding: 60px 10px ;
+    gap: 20px;
+    box-shadow: 3px 3px 8px rgba(5, 5, 5, 0.87);
+    border-radius: 10px;
+}
+
+.main span{
+    background: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main h2{
+    background: none;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+/*ICONS*/
+.map{
+    background:none;
+    font-size: 37px;
+    animation: flipTitle 3s linear infinite;
+}
+
+.search{
+    background: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    transition: ease transform 0.5s;
+    cursor: pointer;
+}
+
+.responseIcon{
+    background: transparent;
+    font-size: 18px;
+}
+.search:hover{
+    transform: scale(1.5);
+}
+
+@keyframes flipTitle{
+    from{
+        transform: rotateY(360deg);
+    }
+    to{
+        transform: rotateY(0deg);
+    }
+}
